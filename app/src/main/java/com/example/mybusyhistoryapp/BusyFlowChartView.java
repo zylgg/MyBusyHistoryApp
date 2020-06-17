@@ -292,7 +292,6 @@ public class BusyFlowChartView extends View {
         canvas.drawText("较繁忙",marginleft,Dealvalues_to_px(400)+textRect0.height()*1.0f/2-3,mPaint);
         Paint paint22 = new Paint();
         paint22.setStyle(Paint.Style.STROKE);
-        paint22.setAlpha(120);
         paint22.setColor(getResources().getColor(R.color.color_F4BEBE));
         paint22.setStrokeWidth(3);
         PathEffect effects = new DashPathEffect(new float[]{16, 4, 16, 4}, 1);
