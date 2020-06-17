@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--曲线图-->
+    <declare-styleable name="CurveLineChartView">
+        <attr name="curve_color" format="color"></attr>
+        <attr name="is_showXValues" format="boolean"></attr>
+        <attr name="is_showXAxis" format="boolean"></attr>
+        <attr name="is_showBrokenLine" format="boolean"></attr>
+        <attr name="unit" format="string"></attr>
+    </declare-styleable>
+</resources>

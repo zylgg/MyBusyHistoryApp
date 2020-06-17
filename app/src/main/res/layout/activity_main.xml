@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_loginbg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <com.example.mybusyhistoryapp.CurveLineChartView
+        android:id="@+id/cur_tem_hum_temper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:curve_color="@color/TemperatureView_ringcolor"
+        app:is_showBrokenLine="false"
+        app:is_showXAxis="true"
+        app:is_showXValues="true"
+        app:unit="℃" />
+    <com.example.mybusyhistoryapp.BusyFlowChartView
+        android:id="@+id/cur_busy_flow"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:curve_color="@color/TemperatureView_ringcolor"
+        app:is_showBrokenLine="false"
+        app:is_showXAxis="false"
+        app:is_showXValues="true"
+        app:unit="℃" />
+
+</LinearLayout>

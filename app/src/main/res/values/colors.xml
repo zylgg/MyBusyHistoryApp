@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="TemperatureView_ringcolor">#eae039</color>
+    <color name="color_dc2828">#dc2828</color>
+    <color name="color_F4BEBE">#F4BEBE</color>
+</resources>
